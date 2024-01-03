@@ -28,6 +28,8 @@ namespace Calculator // Note: actual namespace depends on the project name.
             userChoice = Convert.ToInt32(Console.ReadLine());
 
              int userFinalResult = FinalResult(userChoice, userNum1, userNum2);
+
+            Console.WriteLine($"The result (based on the option and the numbers you have input) is: {userFinalResult}");
         }
 
         static void Menu()
@@ -41,23 +43,35 @@ namespace Calculator // Note: actual namespace depends on the project name.
             Console.WriteLine("****************");
         }
 
-        static int FinalResult(int userChoice, int userNum)
+        static int FinalResult(int userChoice, int userNum1, int userNum2)
         {
-            int final;
+            int final = 0;
 
-            switch (userChoice)
+            if (userChoice == 1)
             {
-                case 1:
-                    break;
-                case 2:
-                    break;
-                case 3:
-                    break;
-                case 4:
-                    break;
-                default:
-                    break;
+                final = userNum1 * userNum2;
             }
+
+            else if (userChoice == 2)
+            {
+                final = userNum1 % userNum2;
+            }
+
+            else if (userChoice == 3)
+            {
+                final = userNum1 + userNum2;
+            }
+
+            else if (userChoice == 4)
+            {
+                final = userNum1 - userNum2;
+            }
+
+            else
+            {
+                Console.WriteLine("Sorry, no option found");
+            }
+
             return final;
         }
     }
