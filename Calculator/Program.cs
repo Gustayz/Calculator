@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 using System.Reflection.Metadata;
 using System.Runtime.ConstrainedExecution;
 
-namespace Calculator // Note: actual namespace depends on the project name.
+namespace Calculator 
 {
     internal class Program
     {
@@ -31,7 +31,7 @@ namespace Calculator // Note: actual namespace depends on the project name.
 
             Console.WriteLine($"The result (based on the option and the numbers you have input) is: {userFinalResult}");
         }
-
+        /* method that inputs the menu to the console when called in main*/
         static void Menu()
         {
             Console.WriteLine("ONLINE CALCULATOR");
@@ -54,7 +54,7 @@ namespace Calculator // Note: actual namespace depends on the project name.
 
             else if (userChoice == 2)
             {
-                final = userNum1 % userNum2;
+                final = userNum1 / userNum2;
             }
 
             else if (userChoice == 3)
