@@ -16,7 +16,7 @@ add, or subtract). The program will give you the result and you are good to clos
 5. Inside the file, select the buttom that says Raw.
 6. It will open a new page or in most cases it will just pops up, the code on the page, past it in your IDE and RUN.
 
-## Examples
+## Captures
 
 ![Screenshot 2024-01-17 154551](https://github.com/Gustayz/Calculator/assets/114109045/f1126230-c0f1-43ff-9e30-c0b25578a5fc)
 ![Screenshot 2024-01-17 154645](https://github.com/Gustayz/Calculator/assets/114109045/a0b70b79-0087-413c-98c1-d055f336b738)
