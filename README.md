@@ -4,7 +4,13 @@ Calculator is a program that allows the user to input two integers and decide wh
 
 ## How it works
 
+## Installation/Download
 
+1. On the repository go to > <>Code
+2. Select the Calculator folder
+4. Go to the file named > Program.cs.
+5. Inside the file, select the buttom that says >Raw.
+6. It will open a new page or in most cases it will just pops up, the code on the page, past it in your IDE and RUN.
 
 ## Examples
 
