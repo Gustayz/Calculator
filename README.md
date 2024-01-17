@@ -4,6 +4,8 @@ Calculator is a program that allows the user to input two integers and decide wh
 
 ## How it works
 
+After you've have copy and pasted the code on your IDE, RUN the program. The program will prompt you with a question
+
 ## Installation/Download
 
 1. On the repository go to <>Code
