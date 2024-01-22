@@ -2,6 +2,10 @@
 
 Calculator is a program that allows the user to input two integers and decide whether multiply, divide, add, or subtract them.
 
+## Languages and tools
+
+Visual Studio 2022 | C#
+
 ## How it works
 
 After you've have copy and pasted the code in your IDE, run the program to begin. The program will prompt you with a question
